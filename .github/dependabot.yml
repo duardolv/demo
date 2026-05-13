@@ -8,8 +8,9 @@ updates:
   - package-ecosystem: npm
     directory: "/javascript"
     schedule:
-      interval: "cron"
-      cronjob: "0 * * * *"
+      interval: "daily"
+      time: "19:00"
+      timezone: "Europe/London"
   - package-ecosystem: bundler
     directory: "/ruby"
     schedule:
